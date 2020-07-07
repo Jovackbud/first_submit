@@ -3,4 +3,5 @@ n = 5
 for i in range(0, n):
     num = int(input('Enter a number here:'))
     num_list.append(num)
-    print(num_list)
+num_list.sort()
+print('\nthe largest of the numbers you entered is '.title() + str(num_list[-1]))
