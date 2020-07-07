@@ -1,5 +1,5 @@
 num_list = []
-n = 5
+n = 10
 for i in range(0, n):
     num = int(input('Enter a number here:'))
     num_list.append(num)
