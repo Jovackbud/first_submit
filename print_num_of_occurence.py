@@ -1,5 +1,8 @@
 numbers = []
-n = len(numbers)
-for number in range:
-    if n < 5:
-        entry = input("Enter a number here:")
+n = 0
+while n < 7:
+    new = int(input('Enter a number here:'))
+    numbers.append(new)
+    n += 1
+else:
+    print(numbers)
