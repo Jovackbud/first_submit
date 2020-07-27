@@ -1,5 +1,5 @@
 from typing import Tuple, Union
-
+# Todo You don't have to repeat shop1prices and shop2prices. Do this again without repeat the same dictionary
 shop1prices = {"mango": 20, "banana": 30.4, "apple": 15.40, "orange": 40.21}
 shop2prices = {"mango": 50, "banana": 26, "apple": 35.71, "orange": 15.78}
 shop1priceslist = []
@@ -33,6 +33,6 @@ for values in shop1.values():
 sp2 = []
 for values in shop2.values():
     sp2.append(values)
-spsum = {"mango": sp1[0] + sp2[0], "banana":sp1[1] + sp2[1], "apple":sp1[-2] + sp2[-2], "orange":sp1[-1] + sp2[-1]}
+spsum = {"mango": sp1[0] + sp2[0], "banana": sp1[1] + sp2[1], "apple": sp1[-2] + sp2[-2], "orange": sp1[-1] + sp2[-1]}
 print(spsum)
 # is it possible to use a for loop for spsum?
